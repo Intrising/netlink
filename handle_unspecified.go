@@ -1,3 +1,4 @@
+//go:build !linux
 // +build !linux
 
 package netlink
@@ -6,7 +7,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/vishvananda/netns"
+	"github.com/Intrising/netns"
 )
 
 type Handle struct{}

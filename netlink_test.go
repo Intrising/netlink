@@ -1,3 +1,4 @@
+//go:build linux
 // +build linux
 
 package netlink
@@ -15,7 +16,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vishvananda/netns"
+	"github.com/Intrising/netns"
 	"golang.org/x/sys/unix"
 )
 

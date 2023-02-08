@@ -1,3 +1,4 @@
+//go:build linux
 // +build linux
 
 package netlink
@@ -7,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vishvananda/netns"
+	"github.com/Intrising/netns"
 )
 
 func setupRdmaKModule(t *testing.T, name string) {

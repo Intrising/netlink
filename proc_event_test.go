@@ -1,9 +1,10 @@
+//go:build linux
 // +build linux
 
 package netlink
 
 import (
-	"github.com/vishvananda/netns"
+	"github.com/Intrising/netns"
 	"os"
 	"os/exec"
 	"runtime"

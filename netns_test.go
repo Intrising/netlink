@@ -1,3 +1,4 @@
+//go:build linux
 // +build linux
 
 package netlink
@@ -8,7 +9,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/vishvananda/netns"
+	"github.com/Intrising/netns"
 )
 
 // TestNetNsIdByFd tests setting and getting the network namespace ID
