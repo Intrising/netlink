@@ -1,0 +1,4 @@
+github.com/Intrising/netns v0.0.0-20230208064118-c500daf33418 h1:H5Bl3SowePpRV8sJz3ltRIH4QMdk3W2QDQOq45qrgwg=
+github.com/Intrising/netns v0.0.0-20230208064118-c500daf33418/go.mod h1:rPlnNWTPlQ6ofxh/Wgx9i1LavMbI5IOTd3RF7vcEYoE=
+golang.org/x/sys v0.5.0 h1:MUK/U/4lj1t1oPg0HfuXDN/Z1wv31ZJ/YcPiGccS4DU=
+golang.org/x/sys v0.5.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
